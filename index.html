@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Altoors Activities Home</title>
+
+
+    <link rel="stylesheet" href="styles/main.css"> <!-- Todo -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico"> <!-- Todo -->
+    <script src="scripts/main.js" defer></script>
   </head>
 
   <body>
@@ -12,6 +17,16 @@
       <header>
         <!-- Test Line -->
         Altoors Activities
+
+        <nav>
+          <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="pages/indoor.html">Indoor</a></li>
+            <li><a href="pages/outdoor.html">Outdoor</a></li>
+            <li><a href="pages/seasonal.html">Seasonal</a></li>
+          </ul>
+        </nav>
       </header>
 
       <main>
@@ -39,7 +54,34 @@
       </main>
 
       <footer>
-        Here
+        <p>&copy;<span id="year"></span> Altoors Activities</p> 
+        <div class="social">
+          <nav>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><img
+                    src="https://cdn.glitch.com/9eb49261-af49-4da2-8974-aadea849ad3e%2Ffacebook.png?v=1570914480917"
+                    alt="Facebook icon"
+                /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank"
+                  ><img
+                    src="https://cdn.glitch.com/9eb49261-af49-4da2-8974-aadea849ad3e%2Ftwitter.png?v=1570914477031"
+                    alt="Twitter icon"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.pinterest.com/" target="_blank"
+                  ><img
+                    src="https://cdn.glitch.com/9eb49261-af49-4da2-8974-aadea849ad3e%2Fpinterest.png?v=1570914473883"
+                    alt="Pinterest icon"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </footer>
     </div>
   </body>
